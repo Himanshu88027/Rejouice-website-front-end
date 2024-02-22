@@ -152,6 +152,9 @@ nav h4 {
 #page3-top {
     width: 100%;
     text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 #page3-top h4 {
@@ -166,6 +169,11 @@ nav h4 {
     color: white;
     padding: 5px 7px;
     border-radius: 12px;
+}
+
+#page3-top span{
+    padding: 5px;
+    overflow: hidden;
 }
 
 #page3-top h2 {
