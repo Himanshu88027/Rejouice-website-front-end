@@ -96,6 +96,19 @@ function page2Animation() {
             scrub: 2
         }
     });
+    gsap.from("#page3-top h2", {
+        y: 80,
+        stagger: 0.2,    
+        duration: 1,
+        scrollTrigger: {
+            trigger: "#page3",
+            scroller: "#main",
+            start: "top 67%",
+            end: "top 66%",
+            // markers: true,
+            scrub: 2
+        }
+    });
     
 }
 
