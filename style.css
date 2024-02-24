@@ -1,11 +1,11 @@
 @font-face {
     font-family: nb;
-    src: url(/assets/NBInternationalProBoo.ttf);
+    src: url(./assets/NBInternationalProBoo.ttf);
 }
 
 @font-face {
     font-family: rejoy;
-    src: url(/assets/Rejouice-Headline.ttf);
+    src: url(./assets/Rejouice-Headline.ttf);
 }
 
 * {
